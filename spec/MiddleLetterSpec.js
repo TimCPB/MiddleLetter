@@ -11,4 +11,8 @@ describe("getMiddle", function() {
   it("returns 'a' when given 'cat'", function() {
     expect(getMiddle("cat")).toEqual("a")
   })
+
+  it("returns 'es' when given 'test'", function() {
+    expect(getMiddle("test")).toEqual("es")
+  })
 });
