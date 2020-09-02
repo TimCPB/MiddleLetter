@@ -1,6 +1,6 @@
 function getMiddle(word){
 
-  if(word.length % 2 !== 0) {
+  if(_isOdd(word)) {
     var midValue = Math.floor(word.length / 2)
     return word.charAt(midValue)
   }
@@ -9,3 +9,7 @@ function getMiddle(word){
     return word.charAt(midValue -1) + word.charAt(midValue)
 
 };
+
+function _isOdd(word){
+  return word.length % 2 !== 0
+}
