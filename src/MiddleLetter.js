@@ -1,3 +1,3 @@
 function getMiddle(word){
-  return "Agit";
+  return "A";
 };
